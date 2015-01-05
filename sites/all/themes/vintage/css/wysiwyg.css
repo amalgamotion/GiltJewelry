@@ -1,0 +1,17 @@
+/* CSS Document */
+
+.page_header {
+  color: #003767;
+  text-transform:uppercase;
+  height: 42px;
+  text-align:center;
+  font-size: 14px;
+  background-image: url(../images/shield.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  font-weight: bold;
+  letter-spacing:2px;
+}
+.drop_cap {
+  font-size:36px;
+}

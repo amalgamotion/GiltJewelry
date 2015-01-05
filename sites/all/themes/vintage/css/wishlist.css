@@ -1,0 +1,128 @@
+	.view-wishlist {
+		margin-top:10px;
+	}
+	.view-wishlist .wishlist_table .views-field-field-product-image {
+		margin-bottom:5px;
+	}
+	
+	.view-wishlist .wishlist_table .views-field-field-product-image img{
+		border : 2px solid #570A83;
+	}
+	
+	.wishlist_table .commerce-add-to-cart .form-submit {
+		border:none;
+		background:none;
+		cursor:pointer;
+		color: #570A83;
+		text-decoration: none;
+		margin: 0;
+		padding: 0;
+		font-family: arial;
+		font-size: 11px;
+	}
+	/* .view-wishlist .wishlist_table .views-field {
+		margin-bottom:5px;
+	} */
+	
+	.view-wishlist  .wishlist_table .views-field-field-product-image {
+		margin-bottom:12px;
+	}
+	
+	.view-wishlist .wishlist_table td {
+		padding-left:20px;
+		padding-bottom: 25px;
+	}
+	
+	.view-wishlist .wishlist_text {
+		font-family:arial;
+		color: #570A83;
+		font-size:11px;
+	}
+	
+	/*views-view-table--commerce-cart-form.tpl.php */
+	
+	.checkout_form {
+		width:100%;
+	}
+	
+	.checkout_form tr.even, tr.odd {
+		background: none repeat scroll 0 0 #F3F4EE;
+		border-color: #BEBFB9;
+		border-style: solid;
+		border-width: 0 1px;
+	}
+	
+	.checkout_form tbody tr {
+		height:50px;
+		vertical-align: middle;
+	}
+	
+	
+	.checkout_form tr.odd {
+		background: none repeat scroll 0 0 #FFFFFF;
+	}
+
+	.checkout_form th {
+		background: none repeat scroll 0 0 #E1E2DC;
+		border-color: #BEBFB9;
+		border-style: solid;
+		border-width: 1px;
+		font-weight: normal;
+		padding: 3px 10px;
+		text-transform: uppercase;
+	}
+	
+	.checkout_form tbody td, .checkout_form tbody th {
+		border: 0 none;
+		color: #000000;
+		padding: 8px 10px;
+		vertical-align: middle;
+	}
+	
+	.views-row-last {
+		border-bottom: 1px solid #BEBFB9 !important;
+	}
+	
+	.line-item-summary {
+		margin-bottom: 1em;
+		text-align: right;
+		margin-top: 18px;
+	}
+	
+	.checkout_form .view-footer {
+		margin-top:10px;
+	}
+	
+	 .fullname, .add1,.city {
+		float:left;
+		width: 254px;
+	}
+	
+	.add2,.state {
+		float:right;
+		width: 205px;
+	}
+    .country {
+        width: 205px;
+    }
+
+    #edit-customer-profile-shipping-commerce-customer-address-und-0-postal-code,#edit-customer-profile-billing-commerce-customer-address-und-0-postal-code {
+		width: 202px;
+	}
+	
+	.part2,.part3,.zip {
+		clear:both;
+	}
+	
+	.shiping ,.profile{
+		border:1px solid #A6A498;
+	}
+	.wishlist_text .form-submit
+	{
+	float:left;
+	}
+	.wishlist_remove
+	{
+	font-family: arial;
+    font-size: 11px
+	}

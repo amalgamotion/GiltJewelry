@@ -1,0 +1,53 @@
+#side{
+  float:right;
+  display:inline;
+  width:18em;
+  padding-bottom:1.3em;
+  position:relative;
+  overflow:hidden
+}
+
+#side h2 {border-bottom:1px solid #484b51}
+
+/* --- Links --- */
+#sidea {padding:1px; border:0 solid #e0e0e0; color:#320968;}
+
+#sidea, .accordion .switch a {border-width:0 0 1px 0; text-decoration:none}
+
+.accordion a{border-width:1px; text-decoration:underline}
+
+#sidea:hover, #sidea:focus, #sidea:active {border-color:#bcd; text-decoration:none; outline:0 none}
+
+#side a {display:block; border-width:0 0 1px; border-color:#320968; color:#320968;}
+
+#side a:hover, #side a:active, #side a:focus {background-color:#334}
+
+/* --- Accordion --- */
+
+.accordion {margin:0; padding:0 10px}
+
+.accordion li {list-style-type:none}
+
+.accordion li.last-child {margin-left:19px; list-style-type:disc}
+
+#side ul.accordion ul {margin:0; padding:0 0 0 20px;}
+
+.accordion .outer {border:1px solid #dadada; border-width:0 1px 1px; background: #fff}
+
+.accordion .inner {margin-bottom:0; padding:.5em 20px 1em; overflow:hidden}
+
+.accordion .inner .inner {padding-bottom:0}
+
+.accordion .h {padding-top:.3em}
+
+.accordion p {margin:.5em 0 1em}
+
+.switch {margin-bottom:.5em} 
+
+#sidea.trigger {display:block; padding-left:20px; background-image: url(../style/img/plus.gif); background-repeat: no-repeat; background-position: 1px 50%;  font-weight:700}
+
+#sidea.trigger.open {background-image: url(../style/img/minus.gif)}
+
+#side.last-child a.trigger{padding-left:1px; background-image:none; font-weight:normal}
+
+#side a.active{font-weight:700; color:#f72; text-decoration:none}

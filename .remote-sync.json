@@ -1,0 +1,12 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": false,
+  "hostname": "giltjewelry.com",
+  "port": "21",
+  "target": "/public_html",
+  "ignore": [
+    ".git/**"
+  ],
+  "username": "giltjewe",
+  "password": "y4p47AyrP8"
+}

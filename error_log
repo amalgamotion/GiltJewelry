@@ -1,0 +1,122 @@
+
+[05-Nov-2014 20:33:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:33:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:33:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:33:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:33:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:33:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:40:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:40:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:40:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:41:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:41:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:41:21 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:41:23 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:41:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[05-Nov-2014 20:41:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[07-Nov-2014 01:33:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[07-Nov-2014 01:33:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[07-Nov-2014 01:36:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[07-Nov-2014 01:36:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[07-Nov-2014 01:39:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[07-Nov-2014 01:39:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[07-Nov-2014 02:07:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[07-Nov-2014 02:07:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[30-Nov-2014 14:12:27 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/giltjewe/public_html/includes/database/database.inc:2171
+Stack trace:
+#0 /home/giltjewe/public_html/includes/database/database.inc(2171): PDOStatement->execute(Array)
+#1 /home/giltjewe/public_html/includes/database/database.inc(683): DatabaseStatementBase->execute(Array, Array)
+#2 /home/giltjewe/public_html/includes/database/database.inc(2350): DatabaseConnection->query('SELECT expire, ...', Array, Array)
+#3 /home/giltjewe/public_html/includes/lock.inc(167): db_query('SELECT expire, ...', Array)
+#4 /home/giltjewe/public_html/includes/lock.inc(146): lock_may_be_available('theme_registry:...')
+#5 /home/giltjewe/public_html/includes/theme.inc(449): lock_acquire('theme_registry:...')
+#6 /home/giltjewe/public_html/includes/bootstrap.inc(446): ThemeRegistry->set(Array)
+#7 [internal function]: DrupalCacheArray->__destruct()
+#8 {main}
+  thrown in /home/giltjewe/public_html/includes/database/database.inc on line 2171
+[30-Nov-2014 17:58:55 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/giltjewe/public_html/includes/database/database.inc:2171
+Stack trace:
+#0 /home/giltjewe/public_html/includes/database/database.inc(2171): PDOStatement->execute(Array)
+#1 /home/giltjewe/public_html/includes/database/database.inc(683): DatabaseStatementBase->execute(Array, Array)
+#2 /home/giltjewe/public_html/includes/database/database.inc(2350): DatabaseConnection->query('SELECT expire, ...', Array, Array)
+#3 /home/giltjewe/public_html/includes/lock.inc(167): db_query('SELECT expire, ...', Array)
+#4 /home/giltjewe/public_html/includes/lock.inc(146): lock_may_be_available('theme_registry:...')
+#5 /home/giltjewe/public_html/includes/theme.inc(449): lock_acquire('theme_registry:...')
+#6 /home/giltjewe/public_html/includes/bootstrap.inc(446): ThemeRegistry->set(Array)
+#7 [internal function]: DrupalCacheArray->__destruct()
+#8 {main}
+  thrown in /home/giltjewe/public_html/includes/database/database.inc on line 2171
+[30-Nov-2014 21:04:41 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/giltjewe/public_html/includes/database/database.inc:2171
+Stack trace:
+#0 /home/giltjewe/public_html/includes/database/database.inc(2171): PDOStatement->execute(Array)
+#1 /home/giltjewe/public_html/includes/database/database.inc(683): DatabaseStatementBase->execute(Array, Array)
+#2 /home/giltjewe/public_html/includes/database/database.inc(2350): DatabaseConnection->query('SELECT expire, ...', Array, Array)
+#3 /home/giltjewe/public_html/includes/lock.inc(167): db_query('SELECT expire, ...', Array)
+#4 /home/giltjewe/public_html/includes/lock.inc(146): lock_may_be_available('theme_registry:...')
+#5 /home/giltjewe/public_html/includes/theme.inc(449): lock_acquire('theme_registry:...')
+#6 /home/giltjewe/public_html/includes/bootstrap.inc(446): ThemeRegistry->set(Array)
+#7 [internal function]: DrupalCacheArray->__destruct()
+#8 {main}
+  thrown in /home/giltjewe/public_html/includes/database/database.inc on line 2171
+[30-Nov-2014 21:04:41 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/giltjewe/public_html/includes/database/database.inc:2171
+Stack trace:
+#0 /home/giltjewe/public_html/includes/database/database.inc(2171): PDOStatement->execute(Array)
+#1 /home/giltjewe/public_html/includes/database/database.inc(683): DatabaseStatementBase->execute(Array, Array)
+#2 /home/giltjewe/public_html/includes/database/database.inc(2350): DatabaseConnection->query('SELECT expire, ...', Array, Array)
+#3 /home/giltjewe/public_html/includes/lock.inc(167): db_query('SELECT expire, ...', Array)
+#4 /home/giltjewe/public_html/includes/lock.inc(146): lock_may_be_available('theme_registry:...')
+#5 /home/giltjewe/public_html/includes/theme.inc(449): lock_acquire('theme_registry:...')
+#6 /home/giltjewe/public_html/includes/bootstrap.inc(446): ThemeRegistry->set(Array)
+#7 [internal function]: DrupalCacheArray->__destruct()
+#8 {main}
+  thrown in /home/giltjewe/public_html/includes/database/database.inc on line 2171
+[30-Nov-2014 22:04:00 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/giltjewe/public_html/includes/database/database.inc:2171
+Stack trace:
+#0 /home/giltjewe/public_html/includes/database/database.inc(2171): PDOStatement->execute(Array)
+#1 /home/giltjewe/public_html/includes/database/database.inc(683): DatabaseStatementBase->execute(Array, Array)
+#2 /home/giltjewe/public_html/includes/database/database.inc(2350): DatabaseConnection->query('SELECT expire, ...', Array, Array)
+#3 /home/giltjewe/public_html/includes/lock.inc(167): db_query('SELECT expire, ...', Array)
+#4 /home/giltjewe/public_html/includes/lock.inc(146): lock_may_be_available('theme_registry:...')
+#5 /home/giltjewe/public_html/includes/theme.inc(449): lock_acquire('theme_registry:...')
+#6 /home/giltjewe/public_html/includes/bootstrap.inc(446): ThemeRegistry->set(Array)
+#7 [internal function]: DrupalCacheArray->__destruct()
+#8 {main}
+  thrown in /home/giltjewe/public_html/includes/database/database.inc on line 2171
+[01-Dec-2014 00:03:20 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/giltjewe/public_html/includes/database/database.inc:2171
+Stack trace:
+#0 /home/giltjewe/public_html/includes/database/database.inc(2171): PDOStatement->execute(Array)
+#1 /home/giltjewe/public_html/includes/database/database.inc(683): DatabaseStatementBase->execute(Array, Array)
+#2 /home/giltjewe/public_html/includes/database/database.inc(2350): DatabaseConnection->query('SELECT expire, ...', Array, Array)
+#3 /home/giltjewe/public_html/includes/lock.inc(167): db_query('SELECT expire, ...', Array)
+#4 /home/giltjewe/public_html/includes/lock.inc(146): lock_may_be_available('theme_registry:...')
+#5 /home/giltjewe/public_html/includes/theme.inc(449): lock_acquire('theme_registry:...')
+#6 /home/giltjewe/public_html/includes/bootstrap.inc(446): ThemeRegistry->set(Array)
+#7 [internal function]: DrupalCacheArray->__destruct()
+#8 {main}
+  thrown in /home/giltjewe/public_html/includes/database/database.inc on line 2171
+[01-Dec-2014 12:00:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[01-Dec-2014 12:00:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[01-Dec-2014 12:02:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[01-Dec-2014 12:02:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[01-Dec-2014 12:13:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[01-Dec-2014 12:13:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[01-Dec-2014 17:06:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[01-Dec-2014 17:06:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[01-Dec-2014 22:43:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[01-Dec-2014 22:43:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[09-Dec-2014 22:36:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[09-Dec-2014 22:36:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[09-Dec-2014 22:36:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[11-Dec-2014 16:02:03 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[11-Dec-2014 16:02:03 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[11-Dec-2014 16:02:11 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[11-Dec-2014 16:03:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[11-Dec-2014 16:03:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[17-Dec-2014 18:19:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[17-Dec-2014 18:19:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[18-Dec-2014 00:34:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[18-Dec-2014 00:34:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[18-Dec-2014 00:34:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[18-Dec-2014 00:34:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[18-Dec-2014 00:34:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0
+[18-Dec-2014 00:34:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php54/usr/lib64/php/modules/mysqli.so' - /opt/alt/php54/usr/lib64/php/modules/mysqli.so: undefined symbol: client_errors in Unknown on line 0

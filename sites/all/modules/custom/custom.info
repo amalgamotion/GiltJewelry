@@ -1,0 +1,11 @@
+name = custom
+description = custom checkout module.
+core = 7.x
+
+; Information added by drupal.org packaging script on 2013-08-01
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "custom"
+datestamp = "1375369581"
+
+

@@ -1,0 +1,47 @@
+name = Vintage
+description = Tableless theme designed for Gilt Vintage
+screenshot = screenshot.png
+core = 7.x
+engine = phptemplate
+
+regions[login] = Login
+regions[search] = Search
+regions[top_right] = Top Right
+regions[horz_nav] = Horizontal Nav
+regions[left_column] = Left Column
+regions[left_column_bottom] = Left Column Bottom
+regions[content] = Content
+regions[right_column] = Right Column
+regions[left_nav] = Left nav
+regions[left_blog] = Left blog
+regions[left_social_network] = Left social networks
+regions[footer_top] = Footer Top
+regions[footer_mid] = Footer Mid
+regions[footer_bottom] = Footer Bottom
+regions[social_media_buttons] = Social Media Buttons
+regions[home_slideshow] = Home Slideshow
+
+features[] = logo
+features[] = name
+;features[] = slogan
+;features[] = node_user_picture
+;features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/logintoboggan.css
+stylesheets[all][] = css/wysiwyg.css
+stylesheets[all][] = css/reset.css
+stylesheets[print][] = css/print.css
+;stylesheets[all][] = jscrollpane/jquery.jscrollpane.css
+
+;scripts[] = jscrollpane/jquery.jscrollpane.min.js
+;scripts[] = jscrollpane/jquery.mousewheel.js
+;scripts[] = jscrollpane/mwheelIntent.js
+
+settings[vintage_tabs] = 1
+settings[vintage_breadcrumb_separator] = »
+settings[wireframe_mode] = 0
+settings[clear_registry] = 0

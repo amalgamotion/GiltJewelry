@@ -1,0 +1,466 @@
+<?php
+	//unset($_SESSION['current_term']);
+	function custom_permission() {
+	  return array(
+		'commerce product list view' => array(
+		  'title' => t('commerce product list view title'),
+		  'description' => t('commerce product list view module.'),
+		),
+	  );
+	}
+	function custom_form_alter(&$form, $form_state, $form_id) {
+	
+		 if (strstr($form_id, 'commerce_cart_add_to_cart_form')) {
+		// echo '<pre>';print_r($form);echo '</pre>';exit;
+			/* if(arg(0)=='node') {
+				//exit('vcxg');
+				$path=l(t('Inquire About'), $path="",array('attributes' => array('class' => 'custom_inquire')));
+				$form['add_to_wishlist']['#weight']=1000;
+				$form['submit']['#weight'] = 1001;
+				$form['test_content'] = array(
+					'#markup' => $path,
+					'#weight' => 1002,
+				);  
+			}
+			$form_state['dsfdsfsdf']='sdsadasdasdasd'; */
+			//echo '<pre>';print_r($form);echo '</pre>';exit;
+		}
+		
+		if (strstr($form_id, 'webform_client_form_59')) {
+			//echo '<pre>';print_r($form);echo '</pre>';exit;
+			///$form['submitted']['mail']['#default_value']='testingwebdeveloper@gmail.com';
+			$form['submitted']['mail']['#attributes']['id'][0]='webform_dynamic_mid';
+			$form['submitted']['e_mail']['#attributes']=array('id'=>array('webform_current_mid'),'onchange'=>'set_mail()');
+			//$form['submitted']['e_mail']['#attributes']=array('onchange'=>'set_mail()');
+			//echo '<pre>';print_r($form);echo '</pre>';exit;
+		}
+	}
+	
+	function custom_commerce_cart_attributes_refresh_alter(&$commands, $form, $form_state) {
+		//echo '<pre>';print_r($commands);exit;
+		//$form['add_to_wishlist']['#weight']=90;
+		//$form['submit']['#weight']=95;
+	/* 	$path=l(t('Inquire About'), $path="",array('attributes' => array('class' => 'custom_inquire')));
+		$form['inquirey_link'] = array(
+			'#markup' => $path,
+			'#weight' => 1002,
+		); 
+		$html="";
+		$html.=render($form['attributes']);
+		$html.=render($form['field_product_band_size']);
+		$html.=render($form['add_to_wishlist']);		
+		$html.=render($form['submit']);
+		$html.=render($form['inquirey_link']);
+		$commands[0]['data']=$html; */
+		
+		//echo '<pre>';echo $form['#form_id'];print_r($commands[0]['data']);exit;
+	}
+	
+	function testing(){}
+	
+	
+	// function vintage_theme($existing, $type, $theme, $path){
+		// return 
+			// array(
+				// 'commerce_checkout_form_checkout' => array(
+					// 'template' => 'commerce-checkout-form-checkout',
+					// 'render element' => 'form',
+					// 'path' => drupal_get_path('theme', 'vintage') .'/templates',
+				// ),
+			// );
+	// } 
+	
+	function custom_init() {
+		drupal_add_js(drupal_get_path('module', 'custom') . '/premium_accordian/jquery.hoverIntent.minified.js');
+		drupal_add_js(drupal_get_path('module', 'custom') . '/premium_accordian/jquery.cookie.js');
+		drupal_add_js(drupal_get_path('module', 'custom') . '/premium_accordian/jquery.dcjqaccordion.2.9.js');
+		drupal_add_js(drupal_get_path('module', 'custom') . '/jquery.accordion.source.js');
+		//print views_embed_view('testing_node_product', 'page',14);
+		/*   $query = new EntityFieldQuery();
+		$query->entityCondition('entity_type', 'node')
+		  ->entityCondition('bundle', 'jewelry');
+
+		$result = $query->execute();
+		//echo count($result['node']);
+	 	foreach($result['node'] as $key=>$value) {
+			$nid=$result['node'][$key]->nid;
+			$node=node_load($nid);
+			$node->field_product_image=$node->field_node_product_image;
+			node_save($node);
+			//echo '<pre>';print_r($node);echo '</pre>';exit;
+		 }
+		exit;  */
+		 
+		
+	
+		global $user;
+		$quantity = 0;
+		$order='';
+		drupal_add_js(drupal_get_path('module', 'custom') . '/jquery.accordion.source.js');
+		drupal_add_css(drupal_get_path('module', 'custom') . '/accordian.css');
+		if(function_exists('commerce_cart_order_load')) {
+			$order = commerce_cart_order_load($user->uid);
+		}
+		if ($order) {
+			$wrapper = entity_metadata_wrapper('commerce_order', $order);
+			$line_items = $wrapper->commerce_line_items;
+			$quantity = commerce_line_items_quantity($line_items, commerce_product_line_item_types());
+			$total = commerce_line_items_total($line_items);
+			$currency = commerce_currency_load($total['currency_code']);
+		}
+		
+		if(!empty($_GET['q'])) {
+			$alise=drupal_get_normal_path($_GET['q']);
+			if(strpos($alise,'taxonomy/term/') !== false) {				
+				if(strpos($alise,'edit')=='') {
+					$path=str_replace("taxonomy/term/","",$alise);
+					$_GET['q'] = "products/".$path;
+				}
+			}
+		}
+		
+	}
+	
+	
+	function custom_menu() {
+		$items = array();
+		$items['user-wishlist'] = array (	
+			'title' 			=> 'Wishlist',	
+			'page callback' => 'current_user_wishlist',
+			'page arguments' => array('current_user_wishlist'),
+			'access arguments' => array('access content'),
+			'type' => MENU_CALLBACK,
+		);
+		
+		$items['products/%'] = array(
+			'title'	=> 'Products List',
+			'page callback' => 'commerce_product_views',
+			'page arguments' => array(1),
+			'access arguments' => array('commerce product list view'),
+			'type' => MENU_CALLBACK,
+			'file' => 'product.list.inc',
+		);
+		
+		$items['product/add/%/%'] = array (
+			'page callback' => 'custom_product_add',
+			'page arguments' => array(2,3),
+			'access arguments' => array('commerce product list view'),
+			'type' => MENU_CALLBACK,
+		);  
+		
+		$items['product/catalg/%'] = array (
+			'page callback' => 'product_catalog_filter',
+			'page arguments' => array(2),
+			'access arguments' => array('commerce product list view'),
+			'file' => 'product.list.inc',
+			'type' => MENU_CALLBACK,
+		);
+		
+		$items['archive_products'] = array (
+			'page callback' => 'commerce_product_views',
+			//'page arguments' => array(2),
+			'access arguments' => array('commerce product list view'),
+			'file' => 'product.list.inc',
+			'type' => MENU_CALLBACK,
+		);
+		
+		return $items;
+	}
+	
+	function current_user_wishlist() {
+		global $user;
+		if(isset($user)&& $user->uid!=0){
+			drupal_goto('user/'.$user->uid.'/wishlist');
+		} else {
+			drupal_goto('user');
+		}
+	}
+	
+	function pro_classes() {
+		if(arg(0)=='products'&& is_numeric(arg(1))) {
+			return 'product_class';
+		}
+		return '';
+	}
+	
+	function main_classes() {
+		if(arg(0)=='products'&& is_numeric(arg(1))) {
+			return 'product_main_class';
+		}elseif(arg(2)=='wishlist'){
+			return 'product_main_class';
+		}
+		return '';
+	}
+	
+	function custom_product_add($pid,$quantity=1) {
+		if ($product = commerce_product_load($pid) ) {
+			global $user;
+			$uid = $user->uid;
+			$line_item = commerce_product_line_item_new($product, $quantity);
+			$line_item->field_ticket_type['und'][]['value'] = 0;
+			$line_item = commerce_cart_product_add($uid, $line_item, FALSE);
+			drupal_goto('checkout');
+		}  
+	}
+	
+	function product_count1() {
+		global $user;
+		$quantity = 0;
+
+		$order = commerce_cart_order_load($user->uid);
+
+		if ($order) {
+			$wrapper = entity_metadata_wrapper('commerce_order', $order);
+			$line_items = $wrapper->commerce_line_items;
+			$quantity = commerce_line_items_quantity($line_items, commerce_product_line_item_types());
+			$total = commerce_line_items_total($line_items);
+			$currency = commerce_currency_load($total['currency_code']);
+		}
+		echo $currency;
+	}
+	
+	function custom_theme_registry_alter(&$theme_registry) {
+		 //echo '<pre>';print_r($theme_registry);echo '</pre>';exit;
+		$theme_registry['taxonomy_menu_block']['function']='theme_taxonomy_menu_block_custom';
+	}
+	
+	function theme_taxonomy_menu_block_custom($variables) {
+		$current_tids=arg(1);
+		//drupal_add_css(drupal_get_path('module', 'taxonomy_menu_block') .'/accordian.css');
+		  $tree = $variables['items'];
+		 // echo '<pre>';print_r($tree);echo '</pre>';
+		  $config = $variables['config'];
+		 //echo '<pre>';print_r($config);echo '</pre>';
+		  $num_items = count($tree);
+		  $i = 0;
+		  $j=1;
+		 $output = '<ul>';
+		  foreach ($tree as $tid => $term) {
+			//echo $tid;
+			//echo '<br>';
+			$i++;
+			// Add classes.
+			$attributes = array();
+			if ($i == 1) {
+			  $attributes['class'][] = 'first';
+			}
+			if ($i == $num_items) {
+			  $attributes['class'][] = 'last';
+			}
+			if ($term['active_trail'] == '1') {
+			  $attributes['class'][] = 'active-trail';
+			}
+			if ($term['active_trail'] == '2') {
+			  $attributes['class'][] = 'active';
+			}
+			
+			if($current_tids==$tid) {
+				$attributes['class'][] ='current_tids';
+			}
+			
+
+			// Alter link text if we have to display the nodes attached.
+			if (isset($term['nodes'])) {
+			  $term['name'] = $term['name'] . ' (' . $term['nodes'] . ')';
+			}
+			//$term['path'] = 'product/'.$tid.'/list';
+			//$term['path'] = 'products/'.$tid;
+			// Set alias option to true so we don't have to query for the alias every
+			// time, as this is cached anyway.
+			
+			
+			if(!isset($firstid)){
+				$firstid='checkClick';
+			}else{
+				$firstid='';
+			}
+			
+			if (!empty($term['children'])) {
+				$i_d='termmenu_'.$j;
+				//$output .= '<li' . drupal_attributes($attributes) . ' id='.$i_d.'>' . l($term['name'], NULL, $options = array('alias' => TRUE, 'fragment' => 'm', 'external' => TRUE));
+				if($tid==124 || $tid==98 || $tid==125 || $tid==13 || $tid==22){
+					$output .= '<li' . drupal_attributes($attributes) . '><a class="arrow_images" href="/'.$term['path'].'">'.$term['name'].'</a>';
+				}else{
+					$output .= '<li' . drupal_attributes($attributes) . '><a class="" href="javascript:void(0)">'.$term['name'].'</a>';
+				}
+				$j++;
+			} else {
+				//$output .= '<li' . drupal_attributes($attributes) . '>' . l($term['name'], $term['path'], $options = array('alias' => TRUE));
+				$output .= '<li' . drupal_attributes($attributes) . '><a class="last-child" href="'.base_path().$term['path'].'">'.$term['name'].'</a>';
+			}
+			if (!empty($term['children'])) {
+				$output .= theme('taxonomy_menu_block__' . $config['delta'], (array('items' => $term['children'], 'config' => $config)));
+			}
+			$output .= '</li>';
+		  }
+		  $output .= '</ul>';
+
+		  return $output;
+	}
+	
+/* 	function custom_views_query_alter(&$view, &$query)  {
+		if($view->name == 'testing_node_product') {
+			$product='conditions:protected';
+			//$query->table_queue['taxonomy_term_data_node']['join']->definition['where:protected']->{$product}[0]['value']['catalog']='catalog123';
+			//$query->table_queue['taxonomy_term_data_node']['join']->definition['table formula']->{'where:protected'}->{'conditions:protected'}[0][value][catalog]='catalog123';
+			//$table_data=$query->table_queue['taxonomy_term_data_node']['join']->definition['table formula'];
+			//echo '<pre>';print_r($query->table_queue['taxonomy_term_data_node']['join']->definition['table formula']);echo '';exit;
+		}
+	}  
+	
+	function custom_views_data_alter(&$data) {
+		//echo '<pre>';print_r($data);exit;
+	}
+	
+	function custom_views_query_alter(&$view, &$query)  {
+		if($view->name == 'testing_node_product') {
+			//echo '<pre>';print_r($query);exit;
+			//$query->set_limit();
+		}
+	}
+	function custom_views_pre_build(&$view) {
+	  if ($view->name == 'testing_node_product') {
+		$view->set_items_per_page(10);
+	  }
+	}
+	function hook_views_pre_render(&$view) {
+	 */
+	 
+	/* function custom_views_pre_render(&$view) {
+		$view->display_handler->set_option('footer', 'sadasdasdas');
+		// if ($view->name == 'testing_node_product') {
+			// $footer = 'Super awesome footer content goes here';
+			// $view->add_item('page', 'footer', 'views', 'area', array('content' => $footer, 'format' => 'full_html'));
+		// }
+	}
+	function custom_views_pre_view(&$view, &$display_id, &$args) {
+		if ($view->name == 'testing_node_product' && $display_id == 'page') {
+			//echo '<pre>';print_r($view->display_handler->get_option('footer'));
+			//exit;
+			$test=$view->display_handler->get_option('footer');
+			//echo '<pre>';print_r($test);exit;
+			$test['area']['content']="dfsfsdf";
+			//$view->set_item_option($display_id, 'footer', $test, 'content', 'dsfsdfsdfsdgdfg');
+		}
+	} */
+	 
+	function custom_views_post_execute(&$view) {
+		//echo '<pre>';print_r($view);echo '</pre>';
+		global $products_counting,$main_cat,$sub_products;
+		$sub_products="";
+		//echo $main_cat;
+		//echo $products_counting;
+		if ($view->name == 'testing_node_product') {
+			if(count($view->result) > 0) {
+				//echo '<pre>';print_r($view->result);exit;
+				 $count=count($view->result);
+				//echo '<br>';
+				if($products_counting>1) {
+					$tid=$view->result[0]->taxonomy_term_data_node_tid;
+					$term=taxonomy_get_parents($tid);
+					$kid=key($term);
+					$prev_key_name=$term[$kid]->name;
+					
+					if(empty($_SESSION['prev_key_name'])) {
+						$_SESSION['prev_key_name']="";
+					}
+					//echo $_SESSION['prev_key']."===".$prev_key;
+					//echo $prev_key_name."====".$main_cat;
+					if(($_SESSION['prev_key_name']!=$prev_key_name)&&($main_cat!=$prev_key_name)) {
+						print '<div class="breadcrumb views">'.$prev_key_name.'</div>';
+						$_SESSION['prev_key_name']=$prev_key_name;
+						$sub_products="sub_products";
+					}else if(($_SESSION['prev_key_name']==$prev_key_name)&&($main_cat!=$prev_key_name)) {
+						$sub_products="sub_products";
+					}
+				
+					
+					for($i=4;$i<$count;$i++) {
+						//echo $i.'----'.$count;echo '<br>';
+						unset($view->result[$i]);
+					}
+					
+				}else{
+					for($j=0;$j<$count;$j++) {
+						unset($view->result[$j]->taxonomy_term_data_node_name);
+					}
+				}
+			}
+			
+		}
+	}
+	
+	function cate_products() {
+		global $products_counting;
+		$tids=get_categeory(arg(1));
+		$products_counting=count($tids);
+		$tids[arg(1)]=arg(1);
+		
+		$current_term=taxonomy_term_load(arg(1));
+		//echo '<pre>';print_r($current_term);echo '</pre>';
+		if($current_term->vocabulary_machine_name=='era') {
+			$term_page='page_1';
+			$cat='era';
+			$path="node/era/";
+		}else if($current_term->vocabulary_machine_name=='catalog') {
+			$term_page='page';
+			$cat='catalog';
+			$path="node/vinatge_ant/";
+		}else if($current_term->vocabulary_machine_name=='artisan') {
+			$term_page='page_2';
+			$cat='artisan';
+			$path="node/artisan/";
+		}else if($current_term->vocabulary_machine_name=='made_to_order') {
+            $term_page='page_4';
+            $cat='made_to_order';
+            $path="node/made-to-order/";
+        }
+		
+		if(count($tids)>0) {
+			foreach($tids as $key=>$val) {
+				print views_embed_view('testing_node_product',$term_page,$val);
+				if($products_counting>1) {
+					print result_count($val,$cat,$path);
+				}
+			}
+		}
+	}
+	//result_count(17);
+	function result_count($id,$cat_name,$path) {
+		global $base_url;
+		//echo $term_s=taxonomy_term_path(id);
+		//echo '<pre>';print_r($term_s);exit; 
+		$result="";
+		$Count_query="SELECT taxonomy_term_data_node.name AS taxonomy_term_data_node_name, taxonomy_term_data_node.vid AS taxonomy_term_data_node_vid, taxonomy_term_data_node.tid AS taxonomy_term_data_node_tid, taxonomy_term_data_node__taxonomy_vocabulary.machine_name AS taxonomy_term_data_node__taxonomy_vocabulary_machine_name, node.nid AS nid, node.title AS node_title, commerce_product_field_data_field_product.product_id AS commerce_product_field_data_field_product_product_id, weight_weights.weight AS weight_weights_weight, 'node' AS field_data_field_node_product_image_node_entity_type, 'commerce_product' AS field_data_commerce_price_commerce_product_entity_type
+		FROM 
+		{node} node
+		LEFT JOIN {field_data_field_product} field_data_field_product ON node.nid = field_data_field_product.entity_id AND (field_data_field_product.entity_type = 'node' AND field_data_field_product.deleted = '0')
+		LEFT JOIN {commerce_product} commerce_product_field_data_field_product ON field_data_field_product.field_product_product_id = commerce_product_field_data_field_product.product_id
+		INNER JOIN (SELECT td.*, tn.nid AS nid
+		FROM 
+		{taxonomy_term_data} td
+		INNER JOIN {taxonomy_vocabulary} tv ON td.vid = tv.vid
+		INNER JOIN {taxonomy_index} tn ON tn.tid = td.tid
+		WHERE  (tv.machine_name IN  ('".$cat_name."')) ) taxonomy_term_data_node ON node.nid = taxonomy_term_data_node.nid
+		LEFT JOIN {field_data_commerce_stock} commerce_product_field_data_field_product__field_data_commerce_stock ON commerce_product_field_data_field_product.product_id = commerce_product_field_data_field_product__field_data_commerce_stock.entity_id AND (commerce_product_field_data_field_product__field_data_commerce_stock.entity_type = 'commerce_product' AND commerce_product_field_data_field_product__field_data_commerce_stock.deleted = '0')
+		INNER JOIN {taxonomy_index} taxonomy_index_value_0 ON node.nid = taxonomy_index_value_0.nid AND taxonomy_index_value_0.tid = '".$id."'
+		LEFT JOIN {taxonomy_vocabulary} taxonomy_term_data_node__taxonomy_vocabulary ON taxonomy_term_data_node.vid = taxonomy_term_data_node__taxonomy_vocabulary.vid
+		LEFT JOIN {weight_weights} weight_weights ON node.nid = weight_weights.entity_id
+		WHERE ((( (taxonomy_index_value_0.tid = '".$id."') ))AND(( (node.status = '1') AND (node.type IN  ('jewelry')) AND (commerce_product_field_data_field_product__field_data_commerce_stock.commerce_stock_value > '0') )))
+		ORDER BY weight_weights_weight ASC";
+		
+		$Query = db_query($Count_query);			
+		$count = $Query->rowCount();
+		
+		
+		//echo $base_url;
+		//echo base_path().url('taxonomy/term/' . $id);
+		if($count>4) {
+			$result=$count-4;
+			return "<div class='click_more'><a href='".$base_url.url('taxonomy/term/' . $id)."'>Click to see ".$result." more products</a></div>";
+		}
+		return "";
+		
+	}
+
+?>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Gilt Jewelry EcoSite Live">
+    <serverData>
+      <paths name="Gilt Jewelry EcoSite Live">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/beta" />
+            <excludedPath path="/cgi-bin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/beta" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cgi-bin" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
