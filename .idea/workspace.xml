@@ -1,9 +1,1147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e13acf1e-785c-476a-aaee-ab85ca347362" name="Default" comment="" />
+    <list default="true" id="e13acf1e-785c-476a-aaee-ab85ca347362" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.ftpconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.remote-sync.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/ChangeLog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/RELEASE-DATE-4.0.10" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/browse_foreigners.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/changelog.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/chk_rel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/config.sample.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_create.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_datadict.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_events.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_operations.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_printview.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_qbe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_routines.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_sql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_structure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_tracking.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/db_triggers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/_ext/configext.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/conf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/config.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/copyright.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/credits.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/developers.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/config.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/copyright.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/credits.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/developers.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/environment.pickle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/faq.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/glossary.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/index.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/intro.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/other.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/privileges.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/require.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/setup.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/transformations.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/user.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/doctrees/vendors.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/faq.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/glossary.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/.buildinfo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/config.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/copyright.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/credits.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/developers.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/faq.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/glossary.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/index.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/intro.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/other.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/privileges.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/require.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/setup.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/transformations.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/user.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_sources/vendors.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/basic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/comment-bright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/comment-close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/comment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/doctools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/down-pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/pygments.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/searchtools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/underscore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/up-pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/_static/websupport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/config.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/copyright.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/credits.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/developers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/genindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/glossary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/intro.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/objects.inv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/privileges.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/require.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/searchindex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/setup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/transformations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/html/vendors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/index.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/intro.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/make.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/other.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/privileges.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/require.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/setup.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/transformations.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/user.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/doc/vendors.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/examples/config.manyhosts.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/examples/create_tables.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/examples/create_tables_drizzle.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/examples/openid.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/examples/signon-script.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/examples/signon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/examples/swekey.sample.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/examples/upgrade_tables_mysql_4_1_2+.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/file_echo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/gis_data_editor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/import_status.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/OpenStreetMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/canvg/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/canvg/canvg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/canvg/flashcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/canvg/flashcanvas.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/codemirror/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/codemirror/lib/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/codemirror/mode/mysql/mysql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/cross_framing_protection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/db_operations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/db_search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/db_structure.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/export.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/get_image.js.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/get_scripts.js.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/gis_data_editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/import.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/indexes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/jquery.jqplot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/plugins/jqplot.barRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/plugins/jqplot.byteFormatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/plugins/jqplot.canvasAxisLabelRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/plugins/jqplot.canvasTextRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/plugins/jqplot.categoryAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/plugins/jqplot.cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/plugins/jqplot.dateAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/plugins/jqplot.highlighter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/plugins/jqplot.pieRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jqplot/plugins/jqplot.pointLabels.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery-1.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery-ui-1.9.2.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery-ui-timepicker-addon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.ba-hashchange-1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.debounce-1.0.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.event.drag-2.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.fullscreen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.json-2.4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.menuResizer-1.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.mousewheel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.sortableTable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.sprintf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.svg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/jquery.tablesorter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.draggable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.droppable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-blind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-bounce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-clip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-drop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-explode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-fade.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-fold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-pulsate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-scale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-shake.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-slide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect-transfer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.effect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.mouse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.position.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.progressbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.resizable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.selectable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.sortable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.spinner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.tabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery-ui/jquery.ui.widget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/event-alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/sizzle-jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/jquery/src/jquery/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/keyhandler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/makegrid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/messages.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/OpenLayers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/cloud-popup-relative.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/drag-rectangle-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/drag-rectangle-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/east-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/layer-switcher-maximize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/layer-switcher-minimize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/marker-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/marker-gold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/marker-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/measuring-stick-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/measuring-stick-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/north-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/panning-hand-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/panning-hand-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/slider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/south-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/west-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/zoom-minus-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/zoom-plus-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/zoom-world-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/img/zoombar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/framedCloud.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/google.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/ie6-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/add_point_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/add_point_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/drag-rectangle-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/drag-rectangle-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/draw_line_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/draw_line_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/draw_point_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/draw_point_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/draw_polygon_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/draw_polygon_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/editing_tool_bar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/move_feature_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/move_feature_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/navigation_history.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/overview_replacement.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/pan-panel-NOALPHA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/pan-panel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/pan_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/pan_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/panning-hand-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/panning-hand-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/remove_point_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/remove_point_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/ruler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/save_features_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/save_features_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/view_next_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/view_next_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/view_previous_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/view_previous_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/zoom-panel-NOALPHA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/img/zoom-panel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/openlayers/theme/default/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/pmd/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/pmd/history.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/pmd/iecanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/pmd/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/pmd/move.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/querywindow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/replication.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/rte.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/server_databases.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/server_plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/server_privileges.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/server_status.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/server_status_advisor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/server_status_monitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/server_status_queries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/server_status_sorter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/server_status_variables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/server_variables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/sql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/tbl_change.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/tbl_chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/tbl_gis_visualization.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/tbl_relation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/tbl_select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/tbl_structure.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/js/tbl_zoom_plot_jqplot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Advisor.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Config.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/DBQbe.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/DbSearch.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/DisplayResults.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Error.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Error_Handler.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/File.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Footer.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Header.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Index.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/List.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/List_Database.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Menu.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Message.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/OutputBuffering.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/PDF.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/PMA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Partition.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/RecentTable.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Response.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Scripts.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/ServerStatusData.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/StorageEngine.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Table.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/TableSearch.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Theme.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Theme_Manager.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Tracker.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Types.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/Util.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/advisory_rules.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/bfShapeFiles/ShapeFile.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/bookmark.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/build_html_for_db.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/charset_conversion.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/check_user_privileges.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/cleanup.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/common.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/config.default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/config.values.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/config/ConfigFile.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/config/Form.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/config/FormDisplay.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/config/FormDisplay.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/config/config_functions.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/config/messages.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/config/setup.forms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/config/user_preferences.forms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/config/validate.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/core.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/data_dictionary_relations.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/database_interface.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/db_common.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/db_info.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/db_table_exists.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/dbi/drizzle-wrappers.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/dbi/drizzle.dbi.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/dbi/dummy.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/dbi/mysql.dbi.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/dbi/mysqli.dbi.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/display_change_password.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/display_create_database.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/display_create_table.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/display_export.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/display_git_revision.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/display_import.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/display_import_ajax.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/display_select_lang.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/bdb.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/berkeleydb.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/binlog.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/innobase.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/innodb.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/memory.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/merge.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/mrg_myisam.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/myisam.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/ndbcluster.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/pbxt.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/engines/performance_schema.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/error.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/file_listing.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/gis/pma_gis_factory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/gis/pma_gis_geometry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/gis/pma_gis_geometrycollection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/gis/pma_gis_linestring.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/gis/pma_gis_multilinestring.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/gis/pma_gis_multipoint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/gis/pma_gis_multipolygon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/gis/pma_gis_point.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/gis/pma_gis_polygon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/gis/pma_gis_visualization.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/gis_visualization.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/iconv_wrapper.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/import.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/index.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/information_schema_relations.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/insert_edit.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/ip_allow_deny.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/js_escape.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/kanji-encoding.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/language_stats.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/logging.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/mime.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/mult_submits.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/mysql_charsets.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Navigation.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/NavigationHeader.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/NavigationTree.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/NodeFactory.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Column.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Column_Container.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Database.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Event.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Event_Container.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Function.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Function_Container.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Index.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Index_Container.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Procedure.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Procedure_Container.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Table.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Table_Container.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Trigger.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_Trigger_Container.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_View.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/navigation/Nodes/Node_View_Container.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/opendocument.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/operations.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/parse_analyze.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/php-gettext/gettext.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/php-gettext/gettext.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/php-gettext/streams.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/phpseclib/Crypt/AES.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/phpseclib/Crypt/Rijndael.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugin_interface.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/AuthenticationPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/ExportPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/ImportPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/PluginManager.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/PluginObserver.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/TransformationsInterface.int.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/TransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/UploadInterface.int.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/auth/AuthenticationConfig.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/auth/AuthenticationCookie.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/auth/AuthenticationHttp.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/auth/AuthenticationSignon.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/auth/swekey/authentication.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/auth/swekey/musbe-ca.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/auth/swekey/swekey.auth.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/auth/swekey/swekey.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportCodegen.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportCsv.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportExcel.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportHtmlword.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportJson.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportLatex.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportMediawiki.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportOds.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportOdt.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportPdf.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportPhparray.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportSql.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportTexytext.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportXml.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/ExportYaml.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/PMA_ExportPdf.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/export/TableProperty.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/AbstractImportCsv.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/ImportCsv.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/ImportLdi.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/ImportMediawiki.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/ImportOds.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/ImportShp.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/ImportSql.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/ImportXml.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/ShapeFile.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/ShapeRecord.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/upload/UploadApc.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/upload/UploadNoplugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/upload/UploadProgress.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/import/upload/UploadSession.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Application_Octetstream_Download.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Application_Octetstream_Hex.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Image_JPEG_Inline.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Image_JPEG_Link.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Image_PNG_Inline.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/TEMPLATE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/TEMPLATE_ABSTRACT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Text_Plain_Append.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Text_Plain_Dateformat.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Text_Plain_External.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Text_Plain_Formatted.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Text_Plain_Imagelink.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Text_Plain_Link.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Text_Plain_Longtoipv4.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Text_Plain_Sql.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/Text_Plain_Substring.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/AppendTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/DateFormatTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/DownloadTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/ExternalTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/FormattedTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/HexTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/ImageLinkTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/InlineTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/LongToIPv4TransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/SQLTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/SubstringTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/TextImageLinkTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/abstract/TextLinkTransformationsPlugin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/generator_main_class.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/plugins/transformations/generator_plugin.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/pmd_common.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/PropertyItem.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/OptionsPropertyGroup.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/OptionsPropertyItem.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/OptionsPropertyOneItem.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/groups/OptionsPropertyMainGroup.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/groups/OptionsPropertyRootGroup.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/groups/OptionsPropertySubgroup.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/items/BoolPropertyItem.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/items/DocPropertyItem.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/items/HiddenPropertyItem.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/items/MessageOnlyPropertyItem.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/items/RadioPropertyItem.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/items/SelectPropertyItem.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/options/items/TextPropertyItem.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/plugins/ExportPluginProperties.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/plugins/ImportPluginProperties.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/properties/plugins/PluginPropertyItem.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/relation.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/relation_cleanup.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/replication.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/replication_gui.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/rte/rte_events.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/rte/rte_export.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/rte/rte_footer.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/rte/rte_list.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/rte/rte_main.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/rte/rte_routines.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/rte/rte_triggers.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/rte/rte_words.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/sanitizing.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/schema/Dia_Relation_Schema.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/schema/Eps_Relation_Schema.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/schema/Export_Relation_Schema.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/schema/Pdf_Relation_Schema.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/schema/Svg_Relation_Schema.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/schema/User_Schema.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/select_lang.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/select_server.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/server_common.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/server_privileges.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/server_variables_doc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/session.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/special_schema_links.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/sql_query_form.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/sqlparser.data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/sqlparser.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/sqlvalidator.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/sqlvalidator.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/string.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/string_mb.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/string_native.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/string_type_ctype.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/string_type_native.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/structure.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/sysinfo.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tbl_columns_definition_form.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tbl_common.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tbl_info.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tbl_views.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/LICENSE.TXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/README.TXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/config/tcpdf_config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/encodings_maps.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/fonts/dejavu-fonts-ttf-2.33/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/fonts/dejavusans.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/fonts/dejavusans.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/fonts/dejavusans.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/fonts/dejavusansb.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/fonts/dejavusansb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/fonts/dejavusansb.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/fonts/helvetica.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/htmlcolors.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/tcpdf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/tcpdf/unicode_data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/transformations.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/url_generating.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/user_preferences.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/user_preferences.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/vendor_config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/zip.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/libraries/zip_extension.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/license.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/navigation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/phpinfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/phpmyadmin.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/phpunit.xml.nocoverage" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/pmd_display_field.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/pmd_general.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/pmd_pdf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/pmd_relation_new.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/pmd_relation_upd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/pmd_save_pos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/prefs_forms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/prefs_manage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/querywindow.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/schema_edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/schema_export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_binlog.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_collations.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_databases.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_engines.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_plugins.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_privileges.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_replication.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_sql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_status.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_status_advisor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_status_monitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_status_queries.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_status_variables.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/server_variables.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/frames/config.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/frames/form.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/frames/index.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/frames/menu.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/frames/servers.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/lib/ConfigGenerator.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/lib/common.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/lib/form_processing.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/lib/index.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/setup/validate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/show_config_errors.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/sql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_addfield.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_change.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_chart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_create.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_get_field.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_gis_visualization.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_indexes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_move_copy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_operations.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_printview.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_relation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_replace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_row_action.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_select.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_sql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_structure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_tracking.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_triggers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/tbl_zoom_select.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/dot.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/css/common.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/css/navigation.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/ajax_clock_small.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/arrow_ltr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/arrow_rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_bookmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_browse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_chart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_column_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_comment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_dbstatistics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_deltbl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_docs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_engine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_event_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_events.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_export.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_ftext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_globe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_import.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_index.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_index_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_inline_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_insrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_move.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_newdb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_newtbl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_nextpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_primary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_print.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_props.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_relations.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_routine_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_routines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_sbrowse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_selboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_select.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_snewtbl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_spatial.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_sql.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_sqlhelp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_table_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_tblanalyse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_tblexport.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_tblimport.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_tblops.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_tbloptimize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_tipp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_trigger_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_triggers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_unique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_usradd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_usrcheck.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_usrdrop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_usredit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_usrlist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_view_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/b_views.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_browse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_deltbl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_export.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_ftext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_index.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_insrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_nextpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_primary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_sbrowse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_select.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_spatial.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/bd_unique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/cleardot.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/col_drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/col_pointer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/col_pointer_ver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/east-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/error.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/eye.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/eye_grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/logo_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/logo_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/new_data.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/new_data_hovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/new_data_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/new_data_selected_hovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/new_struct.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/new_struct_hovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/new_struct_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/new_struct_selected_hovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/north-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_asci.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_cog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_db.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_error2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_fulltext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_host.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_lang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_loggoff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_notice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_partialtext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_passwd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_really.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_reload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_replication.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_rights.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_sortable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_status.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_sync.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_tbl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_theme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_vars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/s_views.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/south-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/spacer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/sprites.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/toggle-ltr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/toggle-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/vertical_line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/west-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/window-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/zoom-minus-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/zoom-plus-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/img/zoom-world-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/info.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/jquery/jquery-ui-1.9.2.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/layout.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/original/sprites.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/css/codemirror.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/css/common.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/css/enum_editor.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/css/gis.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/css/jqplot.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/css/navigation.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/css/pmd.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/css/resizable-menu.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/css/rte.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/ajax_clock_small.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/arrow_ltr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/arrow_rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/asc_order.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_bookmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_browse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_chart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_column_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_comment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_dbstatistics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_deltbl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_docs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_docsql.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_engine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_event_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_events.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_export.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_firstpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_ftext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_globe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_import.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_index.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_index_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_inline_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_insrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_lastpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_move.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_newdb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_newtbl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_nextpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_pdfdoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_prevpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_primary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_print.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_props.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_relations.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_routine_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_routines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_sbrowse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_sdb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_selboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_select.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_snewtbl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_spatial.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_sql.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_sqldoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_sqlhelp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_table_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_tblanalyse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_tblexport.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_tblimport.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_tblops.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_tbloptimize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_tipp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_trigger_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_triggers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_unique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_usradd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_usrcheck.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_usrdrop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_usredit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_usrlist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_view_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/b_views.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_browse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_deltbl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_export.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_firstpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_ftext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_index.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_insrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_lastpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_nextpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_prevpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_primary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_sbrowse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_select.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_spatial.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/bd_unique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/col_drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/col_pointer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/col_pointer_ver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/database.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/east-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/error.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/eye.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/eye_grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/item.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/left_nav_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/logo_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/logo_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/new_data.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/new_data_hovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/new_data_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/new_data_selected_hovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/new_struct.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/new_struct_hovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/new_struct_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/new_struct_selected_hovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/north-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/php_sym.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pma_logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/2leftarrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/2leftarrow_m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/2rightarrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/2rightarrow_m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/FieldKey_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/Field_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/Field_small_char.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/Field_small_date.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/Field_small_int.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/Header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/Header_Linked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/and_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/ang_direct.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/bord.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/def.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/display_field.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/downarrow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/downarrow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/downarrow2_m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/exec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/exec_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/exitFullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/grid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/help_relation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/left_panel_butt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/left_panel_tab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/or_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/query_builder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/relation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/reload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/resize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/rightarrow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/rightarrow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/small_tab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/toggle_lines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/top_panel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/uparrow2_m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/pmd/viewInFullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_asci.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_attention.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_cancel2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_cog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_db.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_error2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_fulltext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_host.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_lang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_loggoff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_notice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_okay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_partialtext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_passwd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_process.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_really.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_reload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_replication.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_rights.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_sortable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_status.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_sync.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_tbl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_theme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_vars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/s_views.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/south-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/spacer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/sprites.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/toggle-ltr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/toggle-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/vertical_line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/west-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/window-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/zoom-minus-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/zoom-plus-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/img/zoom-world-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/info.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/jquery/jquery-ui-1.9.2.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/layout.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/pmahomme/sprites.lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/sprites.css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/themes/svg_gradient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/transformation_overview.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/transformation_wrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/url.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/user_password.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/version_check.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/view_create.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/view_operations.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pma/webapp.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Gilt Jewelry.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +1156,26 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DrupalConfiguration" enabled="true" version="7">
+    <drupalPath>$PROJECT_DIR$</drupalPath>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Gilt Jewelry" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.ftpconfig" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -79,14 +1234,47 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="web.server" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Film Colossus" />
+    <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e13acf1e-785c-476a-aaee-ab85ca347362" name="Default" comment="" />
@@ -100,26 +1288,26 @@
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32855567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25885227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32855567" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -141,5 +1329,58 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.103270225" vertical-offset="0" max-vertical-offset="581">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ftpsync_settings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ftpconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16333938" vertical-offset="0" max-vertical-offset="551">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
   </component>
 </project>

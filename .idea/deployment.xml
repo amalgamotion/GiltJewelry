@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="Gilt Jewelry EcoSite Live">
     <serverData>
+      <paths name="Film Colossus WP">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$/../Film Colossus" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Gilt Jewelry EcoSite Live">
         <serverdata>
           <mappings>
